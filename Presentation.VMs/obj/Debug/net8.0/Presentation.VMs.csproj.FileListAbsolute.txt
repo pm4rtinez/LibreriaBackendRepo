@@ -1,0 +1,11 @@
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\bin\Debug\net8.0\Presentation.VMs.deps.json
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\bin\Debug\net8.0\Presentation.VMs.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\bin\Debug\net8.0\Presentation.VMs.pdb
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.AssemblyInfoInputs.cache
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.AssemblyInfo.cs
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.csproj.CoreCompileInputs.cache
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\refint\Presentation.VMs.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\Presentation.VMs.pdb
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Presentation.VMs\obj\Debug\net8.0\ref\Presentation.VMs.dll

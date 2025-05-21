@@ -1,0 +1,450 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj",
+        "projectName": "Business.DTOs",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj",
+        "projectName": "Business.Interfaces",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj",
+        "projectName": "Business.Services",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj"
+              },
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
+        "projectName": "Data.Access.EF",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              },
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "projectName": "Data.Access.Entities",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "projectName": "Data.Access.Interfaces",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\bin\Debug\net8.0\Data.Access.Entities.deps.json
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\bin\Debug\net8.0\Data.Access.Entities.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\bin\Debug\net8.0\Data.Access.Entities.pdb
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.AssemblyInfoInputs.cache
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.AssemblyInfo.cs
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.csproj.CoreCompileInputs.cache
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\refint\Data.Access.Entities.dll
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\Data.Access.Entities.pdb
+C:\Users\pmartinez\source\repos\ProyectoLibreria\Data.Access.Entities\obj\Debug\net8.0\ref\Data.Access.Entities.dll
