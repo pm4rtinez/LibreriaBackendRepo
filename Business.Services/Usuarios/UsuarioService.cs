@@ -1,6 +1,7 @@
 ﻿using Business.DTOs;
 using Business.Interfaces.Usuarios;
 using Data.Access.EF.Context;
+using Data.Access.Entities.Reservas;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -41,14 +42,14 @@ namespace Business.Services.Usuarios
         public List<ReservaDTO> ObtenerReservasActivas(long usuarioId)
         {
             return _context.Reservas
-                .Where(r => r.UsuarioId == usuarioId && r.Estado == "Activa")
+                .Where(r => r.UsuarioId == usuarioId && r.EstadoReserva == EstadoReservaId.Activo)
                 .Select(r => new ReservaDTO
                 {
                     Id = r.Id,
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 }).ToList();
         }
 
@@ -86,7 +87,7 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 }).ToList();
         }
 
@@ -117,14 +118,14 @@ namespace Business.Services.Usuarios
         public async Task<List<ReservaDTO>> ObtenerReservasActivasAsync(int id)
         {
             return await _context.Reservas
-                .Where(r => r.UsuarioId == id && r.Estado == "Activa")
+                .Where(r => r.UsuarioId == id && r.EstadoReserva == EstadoReservaId.Activo)
                 .Select(r => new ReservaDTO
                 {
                     Id = r.Id,
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 }).ToListAsync();
         }
 
@@ -150,7 +151,7 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 }).ToListAsync();
 
             return new HistorialDTO

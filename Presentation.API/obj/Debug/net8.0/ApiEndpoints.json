@@ -492,13 +492,13 @@
     "Parameters": [
       {
         "Name": "reservaId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -518,7 +518,7 @@
     "Parameters": [
       {
         "Name": "reservaId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
@@ -533,14 +533,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuarioId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "libroId",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "Business.DTOs.ReservaRequestDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -555,7 +550,7 @@
     "Parameters": [
       {
         "Name": "usuarioId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
@@ -581,7 +576,7 @@
     "Parameters": [
       {
         "Name": "usuarioId",
-        "Type": "System.Int32",
+        "Type": "System.Int64",
         "IsRequired": true
       },
       {

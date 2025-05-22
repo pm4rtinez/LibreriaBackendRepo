@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.services\\usuarios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\usuarios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAF79A68-7F80-4BDF-A487-688A3932A228}|Presentation.API\\Presentation.API.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF79A68-7F80-4BDF-A487-688A3932A228}|Presentation.API\\Presentation.API.csproj|solutionrelative:presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\autores\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\autores\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\categorias\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\categorias\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1C9E2B-A684-4A15-BE03-FABFF9BEDE48}|Data.Access.Entities\\Data.Access.Entities.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\data.access.entities\\categorias\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1C9E2B-A684-4A15-BE03-FABFF9BEDE48}|Data.Access.Entities\\Data.Access.Entities.csproj|solutionrelative:data.access.entities\\categorias\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.services\\reservas\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\reservas\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1876654E-8812-4BD9-AEA6-71564BDD909F}|Business.Interfaces\\Business.Interfaces.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.interfaces\\reservas\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1876654E-8812-4BD9-AEA6-71564BDD909F}|Business.Interfaces\\Business.Interfaces.csproj|solutionrelative:business.interfaces\\reservas\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\compras\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\compras\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\reservas\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\reservas\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\libros\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\libros\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.dtos\\reservarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\reservarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\presentation.controllers\\usuarios\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\usuarios\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\business.services\\autores\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\autores\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C01C3DBB-5745-47F1-B093-D1C9C282AD46}|Data.Access.Interfaces\\Data.Access.Interfaces.csproj|c:\\users\\pmartinez\\source\\repos\\proyectolibreria\\data.access.interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01C3DBB-5745-47F1-B093-D1C9C282AD46}|Data.Access.Interfaces\\Data.Access.Interfaces.csproj|solutionrelative:data.access.interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,66 +66,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistroDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\RegistroDTO.cs",
-              "RelativeDocumentMoniker": "Business.DTOs\\RegistroDTO.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\RegistroDTO.cs",
-              "RelativeToolTip": "Business.DTOs\\RegistroDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation.API\\Program.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.API\\Program.cs",
+              "RelativeToolTip": "Presentation.API\\Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAiwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:02:51.634Z",
+              "WhenOpened": "2025-05-22T14:00:56.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Autores\\AutoresController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Autores\\AutoresController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Autores\\AutoresController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Autores\\AutoresController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:38:51.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Categorias\\Categoria.cs",
+              "RelativeDocumentMoniker": "Data.Access.Entities\\Categorias\\Categoria.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Categorias\\Categoria.cs",
+              "RelativeToolTip": "Data.Access.Entities\\Categorias\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:05:20.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "RelativeDocumentMoniker": "Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "RelativeToolTip": "Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Categorias\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Categorias\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Categorias\\CategoriasController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Categorias\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:55:12.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Usuarios\\AuthService.cs",
-              "RelativeDocumentMoniker": "Business.Services\\Usuarios\\AuthService.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Usuarios\\AuthService.cs",
-              "RelativeToolTip": "Business.Services\\Usuarios\\AuthService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:44:30.526Z",
+              "WhenOpened": "2025-05-22T13:04:09.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Data.Access.Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Data.Access.Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Reservas\\ReservaService.cs",
+              "RelativeDocumentMoniker": "Business.Services\\Reservas\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Reservas\\ReservaService.cs",
+              "RelativeToolTip": "Business.Services\\Reservas\\ReservaService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:01:43.522Z"
+              "WhenOpened": "2025-05-22T12:46:03.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutorService.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Autores\\AutorService.cs",
-              "RelativeDocumentMoniker": "Business.Services\\Autores\\AutorService.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Autores\\AutorService.cs",
-              "RelativeToolTip": "Business.Services\\Autores\\AutorService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Reservas\\IReservaService.cs",
+              "RelativeDocumentMoniker": "Business.Interfaces\\Reservas\\IReservaService.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Reservas\\IReservaService.cs",
+              "RelativeToolTip": "Business.Interfaces\\Reservas\\IReservaService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA9wA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:12:00.953Z",
+              "WhenOpened": "2025-05-22T12:45:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Compras\\ComprasController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Compras\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Compras\\ComprasController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Compras\\ComprasController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:45:15.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Libros\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Libros\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Libros\\LibrosController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Libros\\LibrosController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:45:04.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservaRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\ReservaRequestDTO.cs",
+              "RelativeDocumentMoniker": "Business.DTOs\\ReservaRequestDTO.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\ReservaRequestDTO.cs",
+              "RelativeToolTip": "Business.DTOs\\ReservaRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:44:34.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "Business.DTOs\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\ReservaDTO.cs",
+              "RelativeToolTip": "Business.DTOs\\ReservaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:43:53.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\RegistroDTO.cs",
+              "RelativeDocumentMoniker": "Business.DTOs\\RegistroDTO.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\RegistroDTO.cs",
+              "RelativeToolTip": "Business.DTOs\\RegistroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:43:36.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Reservas\\ReservaController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Reservas\\ReservaController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Reservas\\ReservaController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Reservas\\ReservaController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:50:00.035Z",
               "EditorCaption": ""
             }
           ]

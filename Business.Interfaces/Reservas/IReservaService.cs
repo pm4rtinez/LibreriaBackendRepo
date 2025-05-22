@@ -9,11 +9,11 @@ namespace Business.Interfaces.Reservas
 {
     public interface IReservaService
     {
-        Task<List<ReservaDTO>> ObtenerReservasPorUsuarioAsync(int usuarioId);
-        Task<List<ReservaDTO>> ObtenerReservasPorFechaAsync(int usuarioId, DateTime desde, DateTime hasta);
+        Task<List<ReservaDTO>> ObtenerReservasPorUsuarioAsync(long usuarioId);
+        Task<List<ReservaDTO>> ObtenerReservasPorFechaAsync(long usuarioId, DateTime desde, DateTime hasta);
         Task DevolverLibroAsync(long reservaId); 
         Task<int> DiasRestantesAsync(long reservaId);
-        Task RegistrarReservaAsync(int usuarioId, int libroId);
+        Task RegistrarReservaAsync(long usuarioId, long libroId);
     }
 
 

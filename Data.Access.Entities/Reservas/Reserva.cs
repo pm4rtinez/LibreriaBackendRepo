@@ -8,24 +8,27 @@ using System.Threading.Tasks;
 
 namespace Data.Access.Entities.Reservas
 {
+    public enum EstadoReservaId
+    {
+        Activo,
+        EnReserva,
+        Terminado
+    }
 
+    public class Reserva
+    {
+        public long Id { get; set; }
 
-        public class Reserva
-        {
-            public long Id { get; set; }
+        public DateTime FechaReserva { get; set; }
 
-            public DateTime FechaReserva { get; set; }
+        public DateTime FechaLimite { get; set; }
 
-            public DateTime FechaLimite { get; set; }
+        public EstadoReservaId EstadoReserva { get; set; }
 
-            public string Estado { get; set; }
+        public long UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
 
-            public long UsuarioId { get; set; }
-            public Usuario Usuario { get; set; }
-
-            public long LibroId { get; set; }
-            public Libro Libro { get; set; }
-        }
-
-
+        public long LibroId { get; set; }
+        public Libro Libro { get; set; }
+    }
 }

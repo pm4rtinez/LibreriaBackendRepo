@@ -94,7 +94,7 @@ namespace Business.Services.Libros
                 LibroId = libroId,
                 FechaReserva = DateTime.Now,
                 FechaLimite = DateTime.Now.AddDays(7),
-                Estado = "Activa"
+                EstadoReserva = EstadoReservaId.Activo
             };
 
             libro.Disponible = false;
@@ -178,7 +178,7 @@ namespace Business.Services.Libros
                 LibroId = libroId,
                 FechaReserva = DateTime.Now,
                 FechaLimite = DateTime.Now.AddDays(7),
-                Estado = "Activa"
+                EstadoReserva = EstadoReservaId.Activo
             };
 
             libro.Disponible = false;
@@ -186,19 +186,6 @@ namespace Business.Services.Libros
             await _context.SaveChangesAsync();
         }
 
-        public Task<LibroDTO> ObtenerDetallesAsync(int libroId)
-        {
-            throw new NotImplementedException();
-        }
 
-        public Task ComprarLibroAsync(int usuarioId, int libroId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task ReservarLibroAsync(int usuarioId, int libroId)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

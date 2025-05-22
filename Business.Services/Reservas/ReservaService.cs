@@ -19,7 +19,7 @@ namespace Business.Services.Reservas
             _context = context;
         }
 
-        public async Task<List<ReservaDTO>> ObtenerReservasPorUsuarioAsync(int usuarioId)
+        public async Task<List<ReservaDTO>> ObtenerReservasPorUsuarioAsync(long usuarioId)
         {
             return await _context.Reservas
                 .Where(r => r.UsuarioId == usuarioId)
@@ -30,12 +30,12 @@ namespace Business.Services.Reservas
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 })
                 .ToListAsync();
         }
 
-        public async Task<List<ReservaDTO>> ObtenerReservasPorFechaAsync(int usuarioId, DateTime desde, DateTime hasta)
+        public async Task<List<ReservaDTO>> ObtenerReservasPorFechaAsync(long usuarioId, DateTime desde, DateTime hasta)
         {
             return await _context.Reservas
                 .Where(r => r.UsuarioId == usuarioId && r.FechaReserva >= desde && r.FechaReserva <= hasta)
@@ -46,16 +46,26 @@ namespace Business.Services.Reservas
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    Estado = r.Estado
+                    EstadoReserva = r.EstadoReserva
                 })
                 .ToListAsync();
         }
 
-        public async Task RegistrarReservaAsync(int usuarioId, int libroId)
+        public async Task RegistrarReservaAsync(long usuarioId, long libroId)
         {
             var libro = await _context.Libros.FindAsync(libroId);
-            if (libro == null || !libro.Disponible)
-                throw new InvalidOperationException("El libro no está disponible para reserva.");
+
+            if (libro == null)
+                throw new InvalidOperationException($" El libro con ID {libroId} no existe en la base de datos.");
+
+            if (!libro.Disponible)
+                throw new InvalidOperationException($" El libro '{libro.Titulo}' no está disponible actualmente para reserva.");
+
+            var reservaExistente = await _context.Reservas
+                .AnyAsync(r => r.LibroId == libroId && r.EstadoReserva == EstadoReservaId.Activo);
+
+            if (reservaExistente)
+                throw new InvalidOperationException($" El libro '{libro.Titulo}' ya está reservado por otro usuario.");
 
             var reserva = new Reserva
             {
@@ -63,7 +73,7 @@ namespace Business.Services.Reservas
                 LibroId = libroId,
                 FechaReserva = DateTime.UtcNow,
                 FechaLimite = DateTime.UtcNow.AddDays(7),
-                Estado = "Activa"
+                EstadoReserva = EstadoReservaId.Activo
             };
 
             libro.Disponible = false;
@@ -80,14 +90,14 @@ namespace Business.Services.Reservas
                 .FirstOrDefaultAsync(r => r.Id == reservaId);
 
             if (reserva == null) throw new InvalidOperationException("Reserva no encontrada.");
-            if (reserva.Estado != "Activa") throw new InvalidOperationException("La reserva ya está cerrada.");
+            if (reserva.EstadoReserva != EstadoReservaId.Activo)
+                throw new InvalidOperationException("La reserva ya está devuelta.");
 
-            reserva.Estado = "Devuelto";
+            reserva.EstadoReserva = EstadoReservaId.Terminado;
             reserva.Libro.Disponible = true;
 
             await _context.SaveChangesAsync();
         }
-
 
         public async Task<int> DiasRestantesAsync(long reservaId)
         {
@@ -95,12 +105,15 @@ namespace Business.Services.Reservas
             if (reserva == null)
                 throw new InvalidOperationException("Reserva no encontrada.");
 
-            if (reserva.Estado != "Activa")
+            if (reserva.EstadoReserva != EstadoReservaId.Activo)
                 return 0;
 
             var dias = (reserva.FechaLimite - DateTime.UtcNow).Days;
             return dias < 0 ? 0 : dias;
         }
+
+
+
 
     }
 }

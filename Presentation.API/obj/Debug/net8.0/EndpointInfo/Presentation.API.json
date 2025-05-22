@@ -843,7 +843,7 @@
             "required": true,
             "schema": {
               "type": "integer",
-              "format": "int32"
+              "format": "int64"
             }
           }
         ],
@@ -892,7 +892,7 @@
             "required": true,
             "schema": {
               "type": "integer",
-              "format": "int32"
+              "format": "int64"
             }
           },
           {
@@ -950,24 +950,25 @@
         "tags": [
           "Reservas"
         ],
-        "parameters": [
-          {
-            "name": "usuarioId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "libroId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaRequestDTO"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -987,7 +988,7 @@
             "required": true,
             "schema": {
               "type": "integer",
-              "format": "int32"
+              "format": "int64"
             }
           }
         ],
@@ -1010,7 +1011,7 @@
             "required": true,
             "schema": {
               "type": "integer",
-              "format": "int32"
+              "format": "int64"
             }
           }
         ],
@@ -1021,19 +1022,19 @@
               "text/plain": {
                 "schema": {
                   "type": "integer",
-                  "format": "int32"
+                  "format": "int64"
                 }
               },
               "application/json": {
                 "schema": {
                   "type": "integer",
-                  "format": "int32"
+                  "format": "int64"
                 }
               },
               "text/json": {
                 "schema": {
                   "type": "integer",
-                  "format": "int32"
+                  "format": "int64"
                 }
               }
             }
@@ -1545,6 +1546,15 @@
         },
         "additionalProperties": false
       },
+      "EstadoReservaId": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "HistorialDTO": {
         "type": "object",
         "properties": {
@@ -1710,9 +1720,8 @@
             "type": "string",
             "format": "date-time"
           },
-          "estado": {
-            "type": "string",
-            "nullable": true
+          "estadoReserva": {
+            "$ref": "#/components/schemas/EstadoReservaId"
           },
           "usuarioId": {
             "type": "integer",
@@ -1750,9 +1759,22 @@
             "type": "string",
             "format": "date-time"
           },
-          "estado": {
-            "type": "string",
-            "nullable": true
+          "estadoReserva": {
+            "$ref": "#/components/schemas/EstadoReservaId"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservaRequestDTO": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "libroId": {
+            "type": "integer",
+            "format": "int64"
           }
         },
         "additionalProperties": false

@@ -148,9 +148,8 @@ namespace Data.Access.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("EstadoReserva")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("FechaLimite")
                         .HasColumnType("datetime2");

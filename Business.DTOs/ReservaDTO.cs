@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Access.Entities.Reservas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Business.DTOs
         public string TituloLibro { get; set; }
         public DateTime FechaReserva { get; set; }
         public DateTime FechaLimite { get; set; }
-        public string Estado { get; set; }
+        public EstadoReservaId EstadoReserva { get; set; }
     }
 
 }

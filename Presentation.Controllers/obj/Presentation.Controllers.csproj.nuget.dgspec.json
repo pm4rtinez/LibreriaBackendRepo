@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj": {}
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj",
         "projectName": "Business.DTOs",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj",
         "projectName": "Business.Interfaces",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj",
         "projectName": "Business.Services",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,11 +170,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
         "projectName": "Data.Access.EF",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -248,11 +248,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
               }
             }
           }
@@ -312,14 +312,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
         "projectName": "Data.Access.Entities",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,14 +377,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
         "projectName": "Data.Access.Interfaces",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -405,8 +405,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               }
             }
           }
@@ -446,14 +446,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj",
         "projectName": "Presentation.Controllers",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -474,23 +474,23 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
               }
             }
           }

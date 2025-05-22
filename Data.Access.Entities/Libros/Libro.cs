@@ -32,12 +32,12 @@ namespace Data.Access.Entities.Libros
             public long CategoriaId { get; set; }
             public Categoria Categoria { get; set; }
 
-            public ICollection<DetalleCompra> DetallesCompra { get; set; }
+            public ICollection<DetalleCompra>? DetallesCompra { get; set; }
 
             public ICollection<Reserva>? Reservas { get; set; }
         }
     
 
     //He creado ambas , los objetos y los id, podria ser redundante pero hay veces que solo me interesa
-    //Acceder al id, y no generar el objeto completo.
+    //acceder al id, y no generar el objeto completo.
 }

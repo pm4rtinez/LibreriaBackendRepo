@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
       "projectName": "Data.Access.Entities",
-      "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+      "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
       "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\obj\\",
+      "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {}
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
         "projectName": "Data.Access.EF",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               },
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
         "projectName": "Data.Access.Entities",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -161,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+    "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
         "projectName": "Data.Access.Interfaces",
-        "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
+        "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj",
         "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -189,8 +189,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj": {
-                "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Data.Access.Entities.csproj"
+              "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj": {
+                "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Entities\\Data.Access.Entities.csproj"
               }
             }
           }
