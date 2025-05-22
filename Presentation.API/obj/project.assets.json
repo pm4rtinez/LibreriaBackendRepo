@@ -7423,11 +7423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.API\\Presentation.API.csproj",
+      "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.API\\Presentation.API.csproj",
       "projectName": "Presentation.API",
-      "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.API\\Presentation.API.csproj",
+      "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.API\\Presentation.API.csproj",
       "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.API\\obj\\",
+      "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7448,23 +7448,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.DTOs\\Business.DTOs.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\Business.DTOs.csproj"
             },
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Interfaces\\Business.Interfaces.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Business.Interfaces.csproj"
             },
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Business.Services\\Business.Services.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Business.Services.csproj"
             },
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj"
             },
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Interfaces\\Data.Access.Interfaces.csproj"
             },
-            "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj": {
-              "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.Controllers\\Presentation.Controllers.csproj"
+            "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj": {
+              "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Presentation.Controllers.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BTDoSm6JuCo=",
+  "dgSpecHash": "Tw9PO8UJaTo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Data.Access.EF\\Data.Access.EF.csproj",
+  "projectFilePath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Data.Access.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pmartinez\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\pmartinez\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
