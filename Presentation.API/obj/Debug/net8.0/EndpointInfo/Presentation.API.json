@@ -1676,7 +1676,7 @@
             "type": "string",
             "nullable": true
           },
-          "contraseña": {
+          "password": {
             "type": "string",
             "nullable": true
           }

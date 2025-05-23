@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.VMs\\Presentation.VMs.csproj",
+      "projectUniqueName": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.VMs\\Presentation.VMs.csproj",
       "projectName": "Presentation.VMs",
-      "projectPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.VMs\\Presentation.VMs.csproj",
+      "projectPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.VMs\\Presentation.VMs.csproj",
       "packagesPath": "C:\\Users\\pmartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmartinez\\source\\repos\\ProyectoLibreria\\Presentation.VMs\\obj\\",
+      "outputPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.VMs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -18,16 +18,22 @@ namespace Presentation.Controllers.Usuarios
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginDTO dto)
         {
+            Console.WriteLine("[BACK] /api/auth/login llamado con:");
+            Console.WriteLine($"Correo: {dto.Correo}, Password: {dto.Password}");
+
             try
             {
                 var token = _authService.Login(dto);
+                Console.WriteLine("[BACK] ✅ Login correcto, token generado.");
                 return Ok(new { token });
             }
             catch (Exception ex)
             {
+                Console.WriteLine("[BACK] ❌ Login fallido:", ex.Message);
                 return StatusCode(401, new { mensaje = ex.Message });
             }
         }
+
 
         [HttpPost("register")]
         public IActionResult Registrar([FromBody] RegistroDTO dto)

@@ -36,12 +36,17 @@ namespace Business.Services.Usuarios
 
         public string Login(LoginDTO dto)
         {
+            Console.WriteLine($"[BACK] Buscando usuario con correo: {dto.Correo}");
+
             var usuario = _context.Usuarios.FirstOrDefault(u => u.Correo == dto.Correo);
             if (usuario == null) throw new Exception("Usuario no encontrado");
+            Console.WriteLine("[BACK] Verificando contraseña para el usuario: " + usuario.Correo);
 
-            var result = _passwordHasher.VerifyHashedPassword(usuario, usuario.Contraseña, dto.Contraseña);
+            var result = _passwordHasher.VerifyHashedPassword(usuario, usuario.Contraseña, dto.Password);
             if (result == PasswordVerificationResult.Failed)
-                throw new Exception("Contraseña incorrecta");
+                Console.WriteLine("[BACK] ❌ Contraseña incorrecta");
+
+            throw new Exception("Contraseña incorrecta");
 
             var claims = new[]
             {
@@ -60,6 +65,7 @@ namespace Business.Services.Usuarios
                 expires: DateTime.UtcNow.AddMinutes(_jwtSettings.ExpireMinutes),
                 signingCredentials: creds
             );
+            Console.WriteLine("[BACK] Generando token JWT para usuario: " + usuario.Correo);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
@@ -76,9 +82,11 @@ namespace Business.Services.Usuarios
             {
                 Nombre = dto.NombreCompleto,
                 Correo = dto.Correo,
-                Contraseña = _passwordHasher.HashPassword(null, dto.Password),
                 Saldo = 0
             };
+
+            usuario.Contraseña = _passwordHasher.HashPassword(usuario, dto.Password);
+
 
             _context.Usuarios.Add(usuario);
             _context.SaveChanges();
