@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.services\\comprobantes\\comprobanteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\comprobantes\\comprobanteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.services\\usuarios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\usuarios\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\presentation.controllers\\comprobantes\\comprobantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\comprobantes\\comprobantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.dtos\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F1C9E2B-A684-4A15-BE03-FABFF9BEDE48}|Data.Access.Entities\\Data.Access.Entities.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\data.access.entities\\reservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1C9E2B-A684-4A15-BE03-FABFF9BEDE48}|Data.Access.Entities\\Data.Access.Entities.csproj|solutionrelative:data.access.entities\\reservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\presentation.controllers\\usuarios\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F64576-BB6B-46F1-873E-07969E7BC615}|Presentation.Controllers\\Presentation.Controllers.csproj|solutionrelative:presentation.controllers\\usuarios\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.services\\reservas\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623963C-DDB0-4570-A847-12545277409A}|Business.Services\\Business.Services.csproj|solutionrelative:business.services\\reservas\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225BA884-0D98-4A62-9789-EE221FD34CC1}|Business.DTOs\\Business.DTOs.csproj|solutionrelative:business.dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1876654E-8812-4BD9-AEA6-71564BDD909F}|Business.Interfaces\\Business.Interfaces.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\business.interfaces\\reservas\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1876654E-8812-4BD9-AEA6-71564BDD909F}|Business.Interfaces\\Business.Interfaces.csproj|solutionrelative:business.interfaces\\reservas\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210ACE33-DB54-40E2-AD45-B7F8CF6B7315}|Data.Access.EF\\Data.Access.EF.csproj|c:\\users\\pmartinez\\desktop\\proyectolibreriarepo\\data.access.ef\\repositories\\comprobantedevolucionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210ACE33-DB54-40E2-AD45-B7F8CF6B7315}|Data.Access.EF\\Data.Access.EF.csproj|solutionrelative:data.access.ef\\repositories\\comprobantedevolucionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CrearUsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\CrearUsuarioDTO.cs",
-              "RelativeDocumentMoniker": "Business.DTOs\\CrearUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\CrearUsuarioDTO.cs",
-              "RelativeToolTip": "Business.DTOs\\CrearUsuarioDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA4AAAAgAAAAAAAAAA==",
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Reservas\\Reserva.cs",
+              "RelativeDocumentMoniker": "Data.Access.Entities\\Reservas\\Reserva.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.Entities\\Reservas\\Reserva.cs",
+              "RelativeToolTip": "Data.Access.Entities\\Reservas\\Reserva.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:13:22.239Z",
+              "WhenOpened": "2025-06-02T14:05:33.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComprobanteService.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Comprobantes\\ComprobanteService.cs",
+              "RelativeDocumentMoniker": "Business.Services\\Comprobantes\\ComprobanteService.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Comprobantes\\ComprobanteService.cs",
+              "RelativeToolTip": "Business.Services\\Comprobantes\\ComprobanteService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:04:19.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Reservas\\IReservaService.cs",
+              "RelativeDocumentMoniker": "Business.Interfaces\\Reservas\\IReservaService.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Interfaces\\Reservas\\IReservaService.cs",
+              "RelativeToolTip": "Business.Interfaces\\Reservas\\IReservaService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:35:38.236Z",
               "EditorCaption": ""
             },
             {
@@ -51,54 +81,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistroDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\RegistroDTO.cs",
-              "RelativeDocumentMoniker": "Business.DTOs\\RegistroDTO.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\RegistroDTO.cs",
-              "RelativeToolTip": "Business.DTOs\\RegistroDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ComprobanteDevolucionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Repositories\\ComprobanteDevolucionRepository.cs",
+              "RelativeDocumentMoniker": "Data.Access.EF\\Repositories\\ComprobanteDevolucionRepository.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Data.Access.EF\\Repositories\\ComprobanteDevolucionRepository.cs",
+              "RelativeToolTip": "Data.Access.EF\\Repositories\\ComprobanteDevolucionRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:53:04.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Business.DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "Business.DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:38:36.868Z",
+              "WhenOpened": "2025-06-02T11:37:28.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Usuarios\\AuthService.cs",
-              "RelativeDocumentMoniker": "Business.Services\\Usuarios\\AuthService.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Usuarios\\AuthService.cs",
-              "RelativeToolTip": "Business.Services\\Usuarios\\AuthService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAzwDAAAAAhAAAAAAAAAA==",
+              "Title": "ComprobanteController.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Comprobantes\\ComprobanteController.cs",
+              "RelativeDocumentMoniker": "Presentation.Controllers\\Comprobantes\\ComprobanteController.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Comprobantes\\ComprobanteController.cs",
+              "RelativeToolTip": "Presentation.Controllers\\Comprobantes\\ComprobanteController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAEwCcAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:41:02.953Z",
+              "WhenOpened": "2025-06-02T11:36:36.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "RelativeDocumentMoniker": "Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "RelativeToolTip": "Presentation.Controllers\\Usuarios\\AuthController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCoAAAAsAAAAAAAAAA==",
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Reservas\\ReservaService.cs",
+              "RelativeDocumentMoniker": "Business.Services\\Reservas\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\pmartinez\\Desktop\\ProyectoLibreriaRepo\\Business.Services\\Reservas\\ReservaService.cs",
+              "RelativeToolTip": "Business.Services\\Reservas\\ReservaService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:37:19.286Z",
+              "WhenOpened": "2025-06-02T11:31:33.771Z",
               "EditorCaption": ""
             }
           ]

@@ -5,6 +5,7 @@ using Data.Access.Entities.DetallesCompra;
 using Data.Access.Entities.Libros;
 using Data.Access.Entities.Usuarios;
 using Data.Access.Entities.Reservas;
+using Data.Access.Entities.Comprobantes;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -22,6 +23,7 @@ namespace Data.Access.EF.Context
         public DbSet<Compra> Compras { get; set; }
         public DbSet<DetalleCompra> DetallesCompra { get; set; }
         public DbSet<Reserva> Reservas { get; set; }
+        public DbSet<ComprobanteDevolucion> ComprobantesDevolucion { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -61,6 +63,11 @@ namespace Data.Access.EF.Context
                 .HasOne(r => r.Libro)
                 .WithMany(l => l.Reservas)
                 .HasForeignKey(r => r.LibroId);
+
+            modelBuilder.Entity<ComprobanteDevolucion>()
+                .HasOne(cd => cd.Reserva)
+                .WithMany(r => r.Comprobantes)
+                .HasForeignKey(cd => cd.ReservaId);
         }
     }
 }

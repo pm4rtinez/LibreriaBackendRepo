@@ -49,7 +49,8 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    TieneComprobante = r.TieneComprobante 
                 }).ToList();
         }
 
@@ -87,7 +88,8 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    TieneComprobante = r.TieneComprobante 
                 }).ToList();
         }
 
@@ -125,7 +127,8 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    TieneComprobante = r.TieneComprobante 
                 }).ToListAsync();
         }
 
@@ -151,8 +154,10 @@ namespace Business.Services.Usuarios
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    TieneComprobante = _context.ComprobantesDevolucion.Any(c => c.ReservaId == r.Id)
                 }).ToListAsync();
+
 
             return new HistorialDTO
             {
@@ -160,5 +165,19 @@ namespace Business.Services.Usuarios
                 Reservas = reservas
             };
         }
+
+
+        public void ActualizarAvatar(long usuarioId, string nuevaUrl)
+        {
+            var usuario = _context.Usuarios.Find(usuarioId);
+            if (usuario == null) throw new Exception("Usuario no encontrado");
+
+            usuario.AvatarUrl = nuevaUrl;
+            _context.SaveChanges();
+        }
+
+
+
+
     }
 }

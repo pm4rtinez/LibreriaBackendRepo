@@ -13,6 +13,8 @@ namespace Business.DTOs
         public string NombreCompleto { get; set; }
         public string Correo { get; set; }
         public decimal Saldo { get; set; }
+        public string? AvatarUrl { get; set; }
+        public string Direccion { get; set; }
     }
 
 

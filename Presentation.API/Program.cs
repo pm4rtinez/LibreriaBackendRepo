@@ -23,6 +23,7 @@ using Business.Services.Categorias;
 using Business.Interfaces.Categorias;
 using Business.Services.Autores;
 using Business.Interfaces.Autores;
+using Business.Services.Comprobantes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,8 @@ var jwt = builder.Configuration.GetSection("Jwt").Get<JwtSettings>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        options.MapInboundClaims = false; 
+
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
@@ -44,6 +47,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key))
         };
     });
+
 
 // Definir política CORS
 var corsPolicyName = "AllowFrontend";
@@ -70,6 +74,7 @@ builder.Services.AddScoped<ILibroService, LibroService>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 builder.Services.AddScoped<IAutorService, AutorService>();
 builder.Services.AddScoped<ICompraService, CompraService>();
+builder.Services.AddScoped<ComprobanteService>();
 
 
 

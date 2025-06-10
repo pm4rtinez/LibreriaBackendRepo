@@ -47,6 +47,15 @@
           }
         }
       },
+      "iTextSharp/5.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/9.0.5": {
         "type": "package",
         "compile": {
@@ -1292,6 +1301,19 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "iTextSharp/5.0.5": {
+      "sha512": "vwda8iRfWwpuNU/JyLYGmBd56J32WVyPZxk51e4p74+4krPNtcfU7WlrNn06aIlGdLvWhsuDNjA0hYK/spp2gA==",
+      "type": "package",
+      "path": "itextsharp/5.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AGPL.txt",
+        "itextsharp.5.0.5.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/itextsharp.dll"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.5": {
@@ -3385,7 +3407,8 @@
     "net8.0": [
       "Business.Interfaces >= 1.0.0",
       "Data.Access.EF >= 1.0.0",
-      "Microsoft.Extensions.Identity.Core >= 9.0.5"
+      "Microsoft.Extensions.Identity.Core >= 9.0.5",
+      "itextsharp >= 4.1.7"
     ]
   },
   "packageFolders": {
@@ -3448,6 +3471,10 @@
           "Microsoft.Extensions.Identity.Core": {
             "target": "Package",
             "version": "[9.0.5, )"
+          },
+          "itextsharp": {
+            "target": "Package",
+            "version": "[4.1.7, )"
           }
         },
         "imports": [
@@ -3469,5 +3496,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Business.Services depende de iTextSharp (>= 4.1.7), pero no se encontró iTextSharp 4.1.7. iTextSharp 5.0.5 se resolvió en su lugar.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"iTextSharp 5.0.5\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -41,8 +41,10 @@ namespace Presentation.Controllers.Usuarios
             {
                 Nombre = dto.Nombre,
                 Correo = dto.Correo,
-                Contraseña = dto.Contraseña,
-                Saldo = dto.Saldo
+                Password = dto.Password,
+                Saldo = dto.Saldo,
+                AvatarUrl = dto.AvatarUrl,
+                Direccion = dto.Direccion
             };
 
             await _unitOfWork.Usuarios.AddAsync(usuario);
@@ -96,5 +98,20 @@ namespace Presentation.Controllers.Usuarios
             var historial = _usuarioService.ObtenerHistorialCompleto(id);
             return Ok(historial);
         }
+
+
+
+        [HttpPut("{id}/avatar")]
+        public async Task<IActionResult> ActualizarAvatar(long id, [FromBody] string nuevaUrl)
+        {
+            var usuario = await _unitOfWork.Usuarios.GetByIdAsync(id);
+            if (usuario == null) return NotFound("Usuario no encontrado");
+
+            usuario.AvatarUrl = nuevaUrl;
+            await _unitOfWork.SaveChangesAsync();
+
+            return Ok(new { mensaje = "Avatar actualizado correctamente" });
+        }
+
     }
 }

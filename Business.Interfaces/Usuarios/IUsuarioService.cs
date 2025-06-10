@@ -20,6 +20,8 @@ namespace Business.Interfaces.Usuarios
         List<ReservaDTO> ObtenerReservasActivas(long usuarioId);
 
         HistorialDTO ObtenerHistorialCompleto(long usuarioId);
+        void ActualizarAvatar(long usuarioId, string nuevaUrl);
+
     }
 
 }

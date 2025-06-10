@@ -80,6 +80,35 @@ namespace Data.Access.EF.Migrations
                     b.ToTable("Compras");
                 });
 
+            modelBuilder.Entity("Data.Access.Entities.Comprobantes.ComprobanteDevolucion", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("DNI")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaGeneracion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte[]>("FirmaImagen")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<long>("ReservaId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ReservaId");
+
+                    b.ToTable("ComprobantesDevolucion");
+                });
+
             modelBuilder.Entity("Data.Access.Entities.DetallesCompra.DetalleCompra", b =>
                 {
                     b.Property<long>("Id")
@@ -88,11 +117,17 @@ namespace Data.Access.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
                     b.Property<long>("CompraId")
                         .HasColumnType("bigint");
 
                     b.Property<long>("LibroId")
                         .HasColumnType("bigint");
+
+                    b.Property<decimal>("PrecioUd")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -148,6 +183,9 @@ namespace Data.Access.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<bool>("Ampliada")
+                        .HasColumnType("bit");
+
                     b.Property<int>("EstadoReserva")
                         .HasColumnType("int");
 
@@ -159,6 +197,9 @@ namespace Data.Access.EF.Migrations
 
                     b.Property<long>("LibroId")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("TieneComprobante")
+                        .HasColumnType("bit");
 
                     b.Property<long>("UsuarioId")
                         .HasColumnType("bigint");
@@ -180,15 +221,21 @@ namespace Data.Access.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<string>("Contraseña")
-                        .IsRequired()
+                    b.Property<string>("AvatarUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Correo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Direccion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -209,6 +256,17 @@ namespace Data.Access.EF.Migrations
                         .IsRequired();
 
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Data.Access.Entities.Comprobantes.ComprobanteDevolucion", b =>
+                {
+                    b.HasOne("Data.Access.Entities.Reservas.Reserva", "Reserva")
+                        .WithMany("Comprobantes")
+                        .HasForeignKey("ReservaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Reserva");
                 });
 
             modelBuilder.Entity("Data.Access.Entities.DetallesCompra.DetalleCompra", b =>
@@ -288,6 +346,11 @@ namespace Data.Access.EF.Migrations
                     b.Navigation("DetallesCompra");
 
                     b.Navigation("Reservas");
+                });
+
+            modelBuilder.Entity("Data.Access.Entities.Reservas.Reserva", b =>
+                {
+                    b.Navigation("Comprobantes");
                 });
 
             modelBuilder.Entity("Data.Access.Entities.Usuarios.Usuario", b =>

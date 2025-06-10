@@ -1,17 +1,14 @@
-﻿using Data.Access.EF.Repositories;
+﻿using Data.Access.EF.Context;
+using Data.Access.EF.Repositories;
+using Data.Access.Interfaces;
 using Data.Access.Interfaces.Repositories.Autores;
 using Data.Access.Interfaces.Repositories.Categorias;
 using Data.Access.Interfaces.Repositories.Compras;
 using Data.Access.Interfaces.Repositories.DetallesCompra;
 using Data.Access.Interfaces.Repositories.Libros;
 using Data.Access.Interfaces.Repositories.Usuarios;
-using Data.Access.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Data.Access.EF.Context;
+using Data.Access.Interfaces.Repositories.Reservas;
+using Data.Access.Interfaces.Repositories.Comprobantes;
 
 namespace Data.Access.EF
 {
@@ -29,6 +26,8 @@ namespace Data.Access.EF
             Categorias = new CategoriaRepository(_context);
             Compras = new CompraRepository(_context);
             DetallesCompra = new DetalleCompraRepository(_context);
+            Reserva = new ReservaRepository(_context);
+            ComprobanteDevolucion = new ComprobanteDevolucionRepository(_context); // ✅ NUEVO
         }
 
         public IUsuarioRepository Usuarios { get; }
@@ -38,10 +37,11 @@ namespace Data.Access.EF
         public ICompraRepository Compras { get; }
         public IDetalleCompraRepository DetallesCompra { get; }
 
-        public IDetalleCompraRepository DetalleCompra => throw new NotImplementedException();
+        public IReservaRepository Reserva { get; } // ✅
+        public IComprobanteDevolucionRepository ComprobanteDevolucion { get; } // ✅
 
         public async Task<int> SaveChangesAsync() => await _context.SaveChangesAsync();
-
         public void Dispose() => _context.Dispose();
+        public IDetalleCompraRepository DetalleCompra { get; }
     }
 }

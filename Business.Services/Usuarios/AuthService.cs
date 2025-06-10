@@ -34,41 +34,7 @@ namespace Business.Services.Usuarios
         }
 
 
-        public string Login(LoginDTO dto)
-        {
-            Console.WriteLine($"[BACK] Buscando usuario con correo: {dto.Correo}");
 
-            var usuario = _context.Usuarios.FirstOrDefault(u => u.Correo == dto.Correo);
-            if (usuario == null) throw new Exception("Usuario no encontrado");
-            Console.WriteLine("[BACK] Verificando contraseña para el usuario: " + usuario.Correo);
-
-            var result = _passwordHasher.VerifyHashedPassword(usuario, usuario.Contraseña, dto.Password);
-            if (result == PasswordVerificationResult.Failed)
-                Console.WriteLine("[BACK] ❌ Contraseña incorrecta");
-
-            throw new Exception("Contraseña incorrecta");
-
-            var claims = new[]
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, usuario.Id.ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, usuario.Correo),
-                new Claim("nombre", usuario.Nombre)
-             };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: _jwtSettings.Issuer,
-                audience: _jwtSettings.Audience,
-                claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(_jwtSettings.ExpireMinutes),
-                signingCredentials: creds
-            );
-            Console.WriteLine("[BACK] Generando token JWT para usuario: " + usuario.Correo);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
 
         public void Registrar(RegistroDTO dto)
         {
@@ -82,10 +48,11 @@ namespace Business.Services.Usuarios
             {
                 Nombre = dto.NombreCompleto,
                 Correo = dto.Correo,
-                Saldo = 0
+                Saldo = 0,
+                Direccion = dto.Direccion,
             };
 
-            usuario.Contraseña = _passwordHasher.HashPassword(usuario, dto.Password);
+            usuario.Password = _passwordHasher.HashPassword(usuario, dto.Password);
 
 
             _context.Usuarios.Add(usuario);
@@ -93,6 +60,68 @@ namespace Business.Services.Usuarios
         }
 
 
+
+        public LoginResultDTO Login(LoginDTO dto)
+        {
+            Console.WriteLine($"[BACK] Buscando usuario con correo: {dto.Correo}");
+
+            var usuario = _context.Usuarios.FirstOrDefault(u => u.Correo == dto.Correo);
+            if (usuario == null) throw new Exception("Usuario no encontrado");
+
+            Console.WriteLine("[BACK] Verificando contraseña para el usuario: " + usuario.Correo);
+
+            var result = _passwordHasher.VerifyHashedPassword(usuario, usuario.Password, dto.Password);
+            if (result == PasswordVerificationResult.Failed)
+            {
+                Console.WriteLine("[BACK] ❌ Contraseña incorrecta");
+                throw new Exception("Contraseña incorrecta");
+            }
+
+            var claims = new[]
+            {
+    new Claim(JwtRegisteredClaimNames.Sub, usuario.Id.ToString()),
+    new Claim(JwtRegisteredClaimNames.Email, usuario.Correo),
+    new Claim("nombre", usuario.Nombre),
+    new Claim("saldo", usuario.Saldo.ToString())
+};
+
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(_jwtSettings.ExpireMinutes),
+                signingCredentials: creds
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+            Console.WriteLine("[BACK] ✅ Token generado para: " + usuario.Correo);
+
+            var usuarioDto = new UsuarioDTO
+            {
+                Id = usuario.Id,
+                NombreCompleto = usuario.Nombre,
+                Correo = usuario.Correo,
+                Saldo = usuario.Saldo
+            };
+
+            return new LoginResultDTO
+            {
+                Token = tokenString,
+            };
+        }
+
+
+        public bool VerificarHash(TestPasswordDTO dto)
+        {
+            var dummyUsuario = new Usuario();
+            var result = _passwordHasher.VerifyHashedPassword(dummyUsuario, dto.HashGuardado, dto.PasswordPlano);
+            return result == PasswordVerificationResult.Success;
+        }
 
         public void RecuperarContrasena(string correo)
         {
@@ -123,6 +152,16 @@ namespace Business.Services.Usuarios
         {
             throw new NotImplementedException();
         }
+        public Usuario ObtenerUsuarioPorId(int id)
+        {
+            var usuario = _context.Usuarios.FirstOrDefault(u => u.Id == id);
+            if (usuario == null) throw new Exception("Usuario no encontrado");
+            return usuario;
+        }
+
+
+
+
     }
 
 }

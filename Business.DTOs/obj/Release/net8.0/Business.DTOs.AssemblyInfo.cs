@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Business.DTOs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f91853ce9baa96644ba77e36af098e669dc8069")]
 [assembly: System.Reflection.AssemblyProductAttribute("Business.DTOs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Business.DTOs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

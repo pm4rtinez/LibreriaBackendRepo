@@ -51,5 +51,19 @@ namespace Data.Access.EF.Repositories
         {
             await _context.SaveChangesAsync();
         }
+
+        public async Task<Reserva> GetByIdWithLibroAsync(long id)
+        {
+            return await _context.Reservas
+                .Include(r => r.Libro)
+                .FirstOrDefaultAsync(r => r.Id == id);
+        }
+
+
+        public void Update(Reserva reserva)
+        {
+            _context.Reservas.Update(reserva);
+        }
+
     }
 }

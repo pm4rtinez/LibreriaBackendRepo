@@ -67,6 +67,49 @@
         }
       }
     },
+    "/api/auth/test-password": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestPasswordDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestPasswordDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestPasswordDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/usuario": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/autores": {
       "get": {
         "tags": [
@@ -1323,6 +1366,48 @@
         }
       }
     },
+    "/api/Usuarios/{id}/avatar": {
+      "put": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -1511,13 +1596,21 @@
             "type": "string",
             "nullable": true
           },
-          "contraseña": {
+          "password": {
             "type": "string",
             "nullable": true
           },
           "saldo": {
             "type": "number",
             "format": "double"
+          },
+          "avatarUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1701,6 +1794,10 @@
           "confirmPassword": {
             "type": "string",
             "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1779,6 +1876,20 @@
         },
         "additionalProperties": false
       },
+      "TestPasswordDTO": {
+        "type": "object",
+        "properties": {
+          "passwordPlano": {
+            "type": "string",
+            "nullable": true
+          },
+          "hashGuardado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Usuario": {
         "type": "object",
         "properties": {
@@ -1794,13 +1905,21 @@
             "type": "string",
             "nullable": true
           },
-          "contraseña": {
+          "password": {
             "type": "string",
             "nullable": true
           },
           "saldo": {
             "type": "number",
             "format": "double"
+          },
+          "avatarUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
           },
           "compras": {
             "type": "array",
@@ -1837,6 +1956,14 @@
           "saldo": {
             "type": "number",
             "format": "double"
+          },
+          "avatarUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

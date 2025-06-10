@@ -413,10 +413,10 @@ C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.API.props
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Presentation.API.props
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\Presenta.0EF9A5A4.Up2Date
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\Presentation.API.dll
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\refint\Presentation.API.dll
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\Presentation.API.pdb
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\Presentation.API.genruntimeconfig.cache
 C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\obj\Debug\net8.0\ref\Presentation.API.dll
+C:\Users\pmartinez\Desktop\ProyectoLibreriaRepo\Presentation.API\bin\Debug\net8.0\itextsharp.dll

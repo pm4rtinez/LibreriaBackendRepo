@@ -9,23 +9,26 @@ using System.Threading.Tasks;
 namespace Data.Access.Entities.Usuarios
 {
 
-        public class Usuario
-        {
-            public long Id { get; set; }
+    public class Usuario
+    {
+        public long Id { get; set; }
 
-            public string Nombre { get; set; }
+        public string Nombre { get; set; }
 
-            public string Correo { get; set; }
+        public string Correo { get; set; }
 
-            public string Contraseña { get; set; }
+        public string Password { get; set; }
 
-            public decimal Saldo { get; set; }
+        public decimal Saldo { get; set; }
 
-            public ICollection<Compra>? Compras { get; set; }
+        public string? AvatarUrl { get; set; }
 
-            public ICollection<Reserva>? Reservas { get; set; }
-        }
-  
+        public string? Direccion { get; set; }
+        public ICollection<Compra>? Compras { get; set; }
+
+        public ICollection<Reserva>? Reservas { get; set; }
+    }
+
 
 
 }

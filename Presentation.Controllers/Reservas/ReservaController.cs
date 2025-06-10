@@ -60,5 +60,26 @@ namespace Presentation.Controllers.Reservas
             var dias = await _reservaService.DiasRestantesAsync(reservaId);
             return Ok(new { diasRestantes = dias });
         }
+
+        // PUT: api/reservas/ampliar/{reservaId}?dias=5
+        [HttpPut("ampliar/{reservaId}")]
+        public async Task<IActionResult> Ampliar(long reservaId, [FromQuery] int dias)
+        {
+            if (dias < 1 || dias > 7)
+                return BadRequest(new { mensaje = "Solo puedes ampliar entre 1 y 7 días." });
+
+            var resultado = await _reservaService.AmpliarReservaAsync(reservaId, dias);
+
+            if (resultado == null)
+                return BadRequest(new { mensaje = "No se pudo ampliar la reserva (puede no estar activa o no existir)." });
+
+            return Ok(resultado);
+        }
+
+
+
+
+
+
     }
 }

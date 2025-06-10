@@ -143,12 +143,19 @@ namespace Business.Services.Libros
 
         public async Task ComprarLibroAsync(long usuarioId, long libroId)
         {
-            var libro = await _context.Libros.FindAsync(libroId); // ya espera un long
-            var usuario = await _context.Usuarios.FindAsync(usuarioId);
+            var libro = await _context.Libros.FindAsync(libroId);
+            if (libro == null)
+                throw new Exception("Libro no encontrado.");
 
-            if (libro == null || usuario == null) throw new Exception("Datos inválidos.");
-            if (!libro.Disponible) throw new Exception("Libro no disponible.");
-            if (usuario.Saldo < libro.Precio) throw new Exception("Saldo insuficiente.");
+            var usuario = await _context.Usuarios.FindAsync(usuarioId);
+            if (usuario == null)
+                throw new Exception("Usuario no encontrado.");
+
+            if (!libro.Disponible)
+                throw new Exception("Libro no disponible.");
+
+            if (usuario.Saldo < libro.Precio)
+                throw new Exception("Saldo insuficiente.");
 
             usuario.Saldo -= libro.Precio;
 
@@ -164,8 +171,13 @@ namespace Business.Services.Libros
             };
 
             _context.Compras.Add(compra);
+
+            // Opcional: marcar el libro como no disponible tras la compra
+            libro.Disponible = false;
+
             await _context.SaveChangesAsync();
         }
+
 
         public async Task ReservarLibroAsync(long usuarioId, long libroId)
         {

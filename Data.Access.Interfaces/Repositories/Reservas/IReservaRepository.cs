@@ -14,5 +14,8 @@ namespace Data.Access.Interfaces.Repositories.Reservas
         Task<Reserva> ObtenerPorIdAsync(long id);
         Task RegistrarAsync(Reserva reserva);
         Task GuardarCambiosAsync();
+        Task<Reserva?> GetByIdWithLibroAsync(long id);
+        void Update(Reserva reserva);
+
     }
 }

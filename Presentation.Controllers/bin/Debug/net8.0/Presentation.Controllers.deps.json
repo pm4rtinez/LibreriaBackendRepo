@@ -57,6 +57,14 @@
           }
         }
       },
+      "iTextSharp/5.0.5": {
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.5.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.3.0",
@@ -2127,7 +2135,8 @@
         "dependencies": {
           "Business.Interfaces": "1.0.0",
           "Data.Access.EF": "1.0.0",
-          "Microsoft.Extensions.Identity.Core": "9.0.5"
+          "Microsoft.Extensions.Identity.Core": "9.0.5",
+          "iTextSharp": "5.0.5"
         },
         "runtime": {
           "Business.Services.dll": {
@@ -2191,6 +2200,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "iTextSharp/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vwda8iRfWwpuNU/JyLYGmBd56J32WVyPZxk51e4p74+4krPNtcfU7WlrNn06aIlGdLvWhsuDNjA0hYK/spp2gA==",
+      "path": "itextsharp/5.0.5",
+      "hashPath": "itextsharp.5.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.3.0": {
       "type": "package",

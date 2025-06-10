@@ -1,10 +1,8 @@
-﻿using Data.Access.Entities.Libros;
+﻿using Data.Access.Entities.Comprobantes;
+using Data.Access.Entities.Libros;
 using Data.Access.Entities.Usuarios;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Access.Entities.Reservas
 {
@@ -30,5 +28,11 @@ namespace Data.Access.Entities.Reservas
 
         public long LibroId { get; set; }
         public Libro Libro { get; set; }
+        public bool TieneComprobante { get; set; } = false;
+
+        public bool Ampliada { get; set; } = false;
+
+        // Relación con los comprobantes de devolución
+        public ICollection<ComprobanteDevolucion> Comprobantes { get; set; } = new List<ComprobanteDevolucion>();
     }
 }

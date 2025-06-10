@@ -30,10 +30,13 @@ namespace Business.Services.Reservas
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    Ampliada = r.Ampliada,
+                    TieneComprobante = r.TieneComprobante 
                 })
                 .ToListAsync();
         }
+
 
         public async Task<List<ReservaDTO>> ObtenerReservasPorFechaAsync(long usuarioId, DateTime desde, DateTime hasta)
         {
@@ -46,7 +49,8 @@ namespace Business.Services.Reservas
                     TituloLibro = r.Libro.Titulo,
                     FechaReserva = r.FechaReserva,
                     FechaLimite = r.FechaLimite,
-                    EstadoReserva = r.EstadoReserva
+                    EstadoReserva = r.EstadoReserva,
+                    TieneComprobante = r.TieneComprobante 
                 })
                 .ToListAsync();
         }
@@ -111,6 +115,49 @@ namespace Business.Services.Reservas
             var dias = (reserva.FechaLimite - DateTime.UtcNow).Days;
             return dias < 0 ? 0 : dias;
         }
+
+        public async Task<ReservaExtendidaDTO?> AmpliarReservaAsync(long reservaId, int dias)
+        {
+            var reserva = await _context.Reservas
+                .Include(r => r.Libro)
+                .FirstOrDefaultAsync(r => r.Id == reservaId);
+
+            if (reserva == null)
+            {
+                Console.WriteLine("❌ Reserva no encontrada.");
+                return null;
+            }
+
+            if (reserva.EstadoReserva != EstadoReservaId.Activo)
+            {
+                Console.WriteLine("❌ La reserva no está activa.");
+                return null;
+            }
+
+            if (reserva.Ampliada)
+            {
+                Console.WriteLine("❌ La reserva ya fue ampliada anteriormente.");
+                return null;
+            }
+
+            var fechaAnterior = reserva.FechaLimite;
+            reserva.FechaLimite = reserva.FechaLimite.AddDays(dias);
+            reserva.Ampliada = true;
+
+            await _context.SaveChangesAsync();
+
+            return new ReservaExtendidaDTO
+            {
+                ReservaId = reserva.Id,
+                TituloLibro = reserva.Libro.Titulo,
+                FechaLimiteAnterior = fechaAnterior,
+                NuevaFechaLimite = reserva.FechaLimite,
+                Estado = reserva.EstadoReserva.ToString()
+            };
+        }
+
+
+
 
 
 
